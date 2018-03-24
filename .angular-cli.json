@@ -22,7 +22,6 @@
         "../node_modules/mdbootstrap/css/bootstrap.css",
         "../node_modules/mdbootstrap/css/mdb.min.css",
         "../node_modules/font-awesome/css/font-awesome.min.css",
-        "../",
         "styles.css"
       ],
       "scripts": [

@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="text-center">
+  <div class="row">
+    <!-- REPEAT DIRECTIVE FOR FLOWER LIST -->
+    <div class="col-sm-4 box" *ngFor="let flower of flowerList">
+      <!-- BIND FLOWER -->
+      <app-flower [flower] = "flower"></app-flower>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
